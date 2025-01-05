@@ -1136,7 +1136,6 @@ body.light .signatures {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh
 }
 
 @media (max-width: 875px) {
