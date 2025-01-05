@@ -477,7 +477,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+  position: center;
 }
 
 body.dark .header {
@@ -491,7 +491,7 @@ body.light .header {
 }
 
 .header-textbox {
-  position: absolute;
+  position: center;
   top: 50%;
   transform: translateY(-50%);
 }
