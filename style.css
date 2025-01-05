@@ -477,7 +477,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: center;
+  position: relative;
 }
 
 body.dark .header {
