@@ -1133,7 +1133,7 @@ body.light .signatures {
 }
 
 .footer-content {
-  display: flex;
+  display: center;
   align-items: center;
   justify-content: center;
 }
