@@ -1160,6 +1160,7 @@ body.light .signatures {
   display: flex;
   gap: var(--gutter-small);
   list-style-type: none;
+  justify-content: center
 }
 
 @media (max-width: 1040px) {
