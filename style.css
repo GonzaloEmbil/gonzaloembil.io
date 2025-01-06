@@ -1135,7 +1135,7 @@ body.light .signatures {
 .footer-content {
   display: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 @media (max-width: 875px) {
