@@ -1166,6 +1166,7 @@ body.light .signatures {
 @media (max-width: 1040px) {
   .footer-links {
     gap: var(--gutter-micro);
+    padding: 0
   }
 }
 
