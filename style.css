@@ -1135,7 +1135,7 @@ body.light .signatures {
 .footer-content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 875px) {
@@ -1160,13 +1160,11 @@ body.light .signatures {
   display: flex;
   gap: var(--gutter-small);
   list-style-type: none;
-  justify-content: center
 }
 
 @media (max-width: 1040px) {
   .footer-links {
     gap: var(--gutter-micro);
-    padding: bottom
   }
 }
 
