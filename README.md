@@ -1,6 +1,6 @@
-# Portfolio Template
+# Gonzalo Martinez Embil Portfolio
 
-An open-source, user-friendly, responsive, and accessible portfolio template for developers 🚀⚡
+In this portfolio you can see the way I combine both of my passions: data analysis and handball. 🚀⚡
 
 Give a star ⭐ if you find it useful. [Visit site &rarr;](https://opensource-portfolio.netlify.app/)
 
