@@ -1031,7 +1031,7 @@ body.dark .work-links img {
 .hire-alert::before,
 .hire-alert::after {
   content: "";
-  position: absolute;
+  position: center;
   inset: 0;
   border-radius: inherit;
 }
