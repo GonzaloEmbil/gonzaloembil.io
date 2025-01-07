@@ -994,7 +994,7 @@ body.dark .work-links img {
 /* --------------------------------- */
 
 .contact-content {
-  display: grid;
+  display: center;
   grid-template-columns: minmax(245px, 35%) 1fr;
   margin-block: var(--gutter-x-large);
   border: 1px solid var(--border);
@@ -1003,7 +1003,7 @@ body.dark .work-links img {
 
 @media (max-width: 1032px) {
   .contact-content {
-    display: flex;
+    display: center;
     flex-direction: column-reverse;
     max-inline-size: 845px;
     margin-inline: auto;
