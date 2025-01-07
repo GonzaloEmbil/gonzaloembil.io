@@ -1022,7 +1022,7 @@ body.dark .work-links img {
   font-size: initial;
   padding: var(--gutter-nano) var(--gutter-micro);
   border-radius: var(--gutter-small);
-  position: relative;
+  position: center;
   z-index: 1;
   margin-block-end: var(--gutter-small);
   color: var(--important);
