@@ -1016,7 +1016,7 @@ body.dark .work-links img {
 }
 
 .hire-alert {
-  display: inline-flex;
+  display: center;
   align-items: center;
   gap: var(--gutter-nano);
   font-size: initial;
