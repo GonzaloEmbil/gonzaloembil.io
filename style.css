@@ -1001,7 +1001,7 @@ body.dark .work-links img {
   border-radius: var(--gutter-nano);
 }
 
-@media (max-width: 1032px) {
+@media (max-width: 2000px) {
   .contact-content {
     display: flex;
     flex-direction: column-reverse;
