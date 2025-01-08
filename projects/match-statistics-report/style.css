@@ -5,23 +5,34 @@
   box-sizing: border-box;
 }
 
+/* Cuerpo y html completos para usar 100% de altura */
 body, html {
   height: 100%;
   font-family: Arial, sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
 }
 
 main {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .work {
-  width: 90%; /* Ajusta al tamaño deseado */
-  max-width: 1200px; /* Define el ancho máximo */
-  margin: 20px;
   text-align: center;
+  max-width: 1200px; /* Define un ancho máximo */
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra los elementos verticalmente dentro del contenedor */
+  align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
+  width: 100%;
 }
 
 .work-boxes {
@@ -46,13 +57,13 @@ iframe {
   height: 700px; /* Ajusta la altura según lo necesites */
 }
 
-/* Título */
+/* Estilo para el título */
 .h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-/* Estilo del texto */
+/* Estilo para el texto */
 .work-text {
   font-size: 1.2rem;
   margin-bottom: 20px;
