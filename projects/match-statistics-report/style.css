@@ -28,7 +28,7 @@ main {
 }
 
 .container {
-  display: flex;
+  display: center;
   flex-direction: column;
   justify-content: center; /* Centra los elementos verticalmente dentro del contenedor */
   align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
@@ -36,7 +36,7 @@ main {
 }
 
 .work-boxes {
-  display: flex;
+  display: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
