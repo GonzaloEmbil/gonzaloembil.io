@@ -1134,8 +1134,11 @@ body.light .signatures {
 
 .footer-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column; /* Cambiamos la dirección para alinear todo en una columna */
+  align-items: center; /* Alinea los elementos horizontalmente al centro */
+  justify-content: center; /* Alinea los elementos verticalmente al centro */
+  gap: var(--gutter-small); /* Añade espacio entre los elementos */
+  text-align: center; /* Centra los textos */
 }
 
 @media (max-width: 875px) {
@@ -1150,6 +1153,7 @@ body.light .signatures {
 
 .footer-text {
   font-size: var(--text-small);
+  text-align: center; /* Asegura que el texto quede centrado */
 }
 
 .footer-text a {
@@ -1158,6 +1162,7 @@ body.light .signatures {
 
 .footer-links {
   display: flex;
+  justify-content: center; /* Centra horizontalmente los links */
   gap: var(--gutter-small);
   list-style-type: none;
 }
@@ -1181,6 +1186,7 @@ body.light .signatures {
 .footer-link a:hover {
   opacity: 1;
 }
+
 
 body.dark .footer-link img {
   filter: invert(1);
