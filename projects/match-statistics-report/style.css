@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centrar Flipbook</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center;    /* Centra verticalmente */
+      height: 100vh;          /* Ocupa toda la altura de la pantalla */
+      background-color: #f9f9f9; /* Color de fondo opcional */
+    }
+
+    iframe {
+      border: 0; /* Opcional: elimina el borde del iframe */
+      max-width: 100%; /* Asegura que se ajuste en pantallas pequeñas */
+      max-height: 100%; /* Asegura que se ajuste en pantallas pequeñas */
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://fliphtml5.com/embed/abc123/" width="800" height="600" frameborder="0"></iframe>
+</body>
+</html>
