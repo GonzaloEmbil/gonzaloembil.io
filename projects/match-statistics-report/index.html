@@ -1,63 +1,6 @@
-<!-- Update favicon href attribute with image of yourself -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicons.png"
-      type="image/png"
-    />
-
-    <!-- Preloading fonts for better performance -->
-
-    <link
-      rel="preload"
-      href="assets/fonts/Mona-Sans.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-
-    <link rel="stylesheet" href="style.css"  />
-    <script src="script.js" defer></script>
-
-    <!-- Your name here -->
-    <title>Gonzalo Embil Portfolio</title>
-  </head>
-
-  <body>
-
-    <script>
-      const theme = localStorage.getItem("theme") || "dark";
-      document.body.classList.add(theme);
-    </script>
-
-    <header class="header">
-
-      <div class="menu-btn-container">
+<main>
+     <section class="work">
         <div class="container">
-          <button type="button"  class="menu-btn">Menu</button>
-        </div>
-      </div>
-
-      <nav class="nav hidden">
-        <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">Projects</a></li>
-          <li class="nav-item"><a href="#blog">Articles</a></li>
-          <li class="nav-item">
-            <a href="#contact" data-focused="last-focused">Contact</a>
-          </li>
-        </ol>
-      </nav>
-
-      <div class="container">
-        <div class="header-textbox">
-          <!-- Replace with your name and job title -->
-          <h1 class="h1">
-            <span>Gonzalo Martinez Embil</span>
-          </h1>
-
- <main>
-      <section class="work">
-       <div class="container">
           <h2 class="h2" id="work">Handball Match Statistics Report</h2>
           <div class="work-boxes">
             <div class="work-box">
@@ -69,33 +12,6 @@
               </div>
             </div>
          </div>
-                <div class="work-links">
-                <!-- Add your project title here -->
-                <h3 class="h3">Handball Match Statistics Report</h3>
-                <!-- Add small description of your project  -->
-                <p class="work-text">
-                  Analysing stats of handball matches using Excel and making PDF reports with data visualisations and KPI's using Canva.
-                </p>
-                <div class="work-links">
-                  <!-- Add url of project in href attribute -->
-                  <a href="https://gonzaloembil.github.io/gonzaloembil.io/projects/match-statistics-report/index.html" target="_blank" rel="noopener" class="link"
-                    >Explore this project</a
-                  >
-                  <a
-                    href="https://github.com/GonzaloEmbil/gonzaloembil.io/tree/main/projects/match-statistics-report"
-                    target="_blank"
-                    rel="noopener"
-                    title="Source code"
-                  >
-                    <img
-                      src="assets/images/social-links/github.svg"
-                      alt="GitHub"
-                      loading="lazy"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
+</main>
