@@ -1,60 +1,71 @@
-/* Estilo global */
+/* Reset de márgenes y padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Cuerpo y html completos para usar 100% de altura */
-body, html {
+/* Centrado de la página usando flexbox */
+html, body {
   height: 100%;
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center; /* Centrado horizontal */
   align-items: center; /* Centrado vertical */
+  font-family: Arial, sans-serif;
 }
 
+/* Aseguramos que el contenido en main se adapte al 100% */
 main {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
+/* Contenedor principal */
 .work {
-  text-align: center;
-  max-width: 1200px; /* Define un ancho máximo */
-  width: 100%;
+  width: 90%; /* Puedes ajustar este tamaño según necesites */
+  max-width: 1200px; /* Limita el tamaño máximo */
   padding: 20px;
+  text-align: center; /* Centra el texto dentro de .work */
 }
 
+/* Contenedor interno que usa flexbox para centrar los elementos */
 .container {
-  display: center;
-  flex-direction: column;
-  justify-content: center; /* Centra los elementos verticalmente dentro del contenedor */
-  align-items: center; /* Centra los elementos horizontalmente dentro del contenedor */
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
   width: 100%;
 }
 
+/* Contenedor para los elementos dentro de .work-boxes */
 .work-boxes {
-  display: center;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  flex-direction: column; /* Alinea en columna */
+  width: 100%;
 }
 
+/* Contenedor individual de cada caja de trabajo */
 .work-box {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Caja de texto que contiene el párrafo */
 .work-textbox {
-  text-align: center;
   margin-bottom: 20px;
 }
 
+/* Ajuste de iframe para que no sobresalga y se ajuste a la pantalla */
 iframe {
-  border: 0;
+  border: none;
   max-width: 100%;
-  height: 700px; /* Ajusta la altura según lo necesites */
+  height: 700px; /* Ajusta la altura como prefieras */
+  margin-top: 20px;
 }
 
 /* Estilo para el título */
@@ -63,7 +74,7 @@ iframe {
   margin-bottom: 20px;
 }
 
-/* Estilo para el texto */
+/* Estilo del texto dentro de .work-text */
 .work-text {
   font-size: 1.2rem;
   margin-bottom: 20px;
