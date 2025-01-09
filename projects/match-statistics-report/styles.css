@@ -9,3 +9,33 @@
   text-decoration: none; /* Opcional: Sin subrayado */
   color: #007BFF; /* Color del enlace */
 }
+
+.links-container {
+  display: flex; /* Usa Flexbox para alinear elementos */
+  justify-content: space-between; /* Espacia los elementos uniformemente */
+  align-items: center; /* Alinea verticalmente */
+  gap: 20px; /* Añade un espacio entre cada enlace */
+  margin: 20px 0; /* Añade margen superior e inferior al contenedor */
+}
+
+.link {
+  text-decoration: none; /* Quita el subrayado */
+  color: #1e88e5; /* Establece un color atractivo */
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente */
+  font-weight: bold; /* Negrita para destacar */
+  transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.link:hover {
+  color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+
+.icon {
+  width: 24px; /* Ajusta el tamaño del icono */
+  height: 24px;
+  transition: transform 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
+}
