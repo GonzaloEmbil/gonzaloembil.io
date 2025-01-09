@@ -1,7 +1,16 @@
 /* General styles */
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("assets/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
+    url("assets/fonts/Mona-Sans.woff2") format("woff2-variations");
+  font-display: swap;
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+  
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
@@ -29,7 +38,7 @@ main {
 
 /* Container styling */
 .container {
-  max-width: 900px;
+  max-width: 1500px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
