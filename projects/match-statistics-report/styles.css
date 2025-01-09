@@ -1,0 +1,11 @@
+.work-links {
+  display: flex;
+  justify-content: space-between; /* Espacia los enlaces uniformemente */
+  max-width: 500px; /* Ajusta el ancho total */
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.work-links a {
+  text-decoration: none; /* Opcional: Sin subrayado */
+  color: #007BFF; /* Color del enlace */
+}
