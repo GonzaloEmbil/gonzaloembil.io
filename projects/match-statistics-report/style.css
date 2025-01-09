@@ -65,8 +65,8 @@ main {
 
 /* Container styling */
 .container {
-  max-width: 1500px;
-  background-color: #ffffff;
+  max-width: 1800px;
+  background-color: #161211;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -110,7 +110,7 @@ footer {
 }
 
 footer a {
-  color: #ffffff;
+  color: #161211;
   text-decoration: none;
   font-weight: bold;
 }
