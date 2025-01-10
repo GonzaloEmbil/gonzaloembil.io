@@ -1214,17 +1214,29 @@ body.dark .footer-link img {
   --thumb-color-highlight: var(--thumb-highlight);
 }
 
+:root {
+  --track-size: 40px; /* Ancho de la pista */
+  --thumb-size: 20px; /* Tamaño del "dedo" o círculo */
+  --track-padding: 4px; /* Espaciado interno en el interruptor */
+  --track-color-inactive: #ccc; /* Color de fondo cuando está inactivo */
+  --track-active: #4caf50; /* Color de fondo cuando está activo */
+  --thumb-color: #fff; /* Color del círculo */
+  --sub: #666; /* Color del texto */
+  --thumb-position: 0%; /* Posición inicial del círculo */
+}
+
 .theme-switch {
-  display: column;
+  display: flex; /* Corregido para usar flexbox */
+  flex-direction: column; /* Alinea elementos en columna */
   align-items: center;
-  gap: 2ch;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
+  gap: 2ch; /* Espaciado entre elementos */
+  user-select: none; /* Evita la selección de texto */
+  -webkit-tap-highlight-color: transparent; /* Elimina el efecto de pulsación */
 }
 
 .theme-switch > span,
 .theme-switch > input {
-  cursor: pointer;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el texto y el interruptor */
 }
 
 .theme-switch span {
@@ -1237,25 +1249,33 @@ body.dark .footer-link img {
   -moz-appearance: none;
   appearance: none;
   box-sizing: content-box;
-  inline-size: var(--track-size);
-  block-size: var(--thumb-size);
+  inline-size: var(--track-size); /* Define el ancho */
+  block-size: calc(var(--thumb-size) + var(--track-padding) * 2); /* Altura dinámica */
   padding: var(--track-padding);
-  background-color: var(--track-color-inactive);
-  border-radius: var(--track-size);
+  background-color: var(--track-color-inactive); /* Color inactivo */
+  border-radius: calc(var(--track-size) / 2); /* Hace la pista redonda */
+  position: relative; /* Necesario para posicionar el círculo */
+  transition: background-color 0.3s ease; /* Suaviza el cambio de color */
 }
 
 .theme-switch > input::after {
   display: block;
   content: "";
-  inline-size: var(--thumb-size);
+  inline-size: var(--thumb-size); /* Tamaño del círculo */
   block-size: var(--thumb-size);
-  background-color: var(--thumb-color);
-  border-radius: 50%;
-  transform: translateX(var(--thumb-position));
-  transition: 500ms all cubic-bezier(0.45, 0.05, 0.22, 1.3);
+  background-color: var(--thumb-color); /* Color del círculo */
+  border-radius: 50%; /* Hace el círculo redondo */
+  position: absolute;
+  top: 50%;
+  left: var(--track-padding); /* Posición inicial */
+  transform: translate(0, -50%) translateX(var(--thumb-position));
+  transition: transform 0.5s cubic-bezier(0.45, 0.05, 0.22, 1.3); /* Suaviza el movimiento */
 }
 
-input:checked {
-  --thumb-position: 100%;
-  background-color: var(--track-active);
+.theme-switch > input:checked {
+  background-color: var(--track-active); /* Cambia el color de fondo */
+}
+
+.theme-switch > input:checked::after {
+  --thumb-position: calc(100% - var(--thumb-size) - var(--track-padding)); /* Mueve el círculo al final */
 }
