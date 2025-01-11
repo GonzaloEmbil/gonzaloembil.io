@@ -15,7 +15,7 @@ Give a star ⭐ if you like it. [Visit site &rarr;](https://gonzaloembil.github.
 
 - Python (using libraries such us Matplotlib, Pandas...)
 - Tableau
-- Power Bi
+- Power BI
 - Excel
 - Canva
 
