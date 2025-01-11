@@ -6,8 +6,8 @@ Give a star ⭐ if you like it. [Visit site &rarr;](https://gonzaloembil.github.
 
 ## Table of Contents
 
-1. [My Toolkit](#projects)
-1. [Projects](#my-toolkit)
+1. [My Toolkit](#my-toolkit)
+1. [Projects](#projects)
 1. [My Articles](#my-articles)
 1. [Contact](#contact)
 
