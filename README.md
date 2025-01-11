@@ -2,40 +2,34 @@
 
 In this portfolio you can see the way I combine both of my passions: data analysis and handball. 🤾🏼‍♀️📈
 
-Give a star ⭐ if you find it useful. [Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
-
-## Useful resources
-
-Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarhassan12) channel where we cover creating template like this from scratch using HTML, CSS and JavaScript also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) that has already reached 180+ stars.
+Give a star ⭐ if you like it. [Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
 
 ## Table of Contents
 
-1. [Features](#key-features)
-1. [Customization](#customizing-the-template)
-1. [Deploying the Site](#deploying-the-site)
+1. [My Toolkit](#projects)
+1. [Projects](#my-toolkit)
+1. [My Articles](#my-articles)
+1. [Contact](#contact)
 
-## Features
+## My Toolkit
 
-- Fully Mobile responsive.
-- Supports light/dark theme.
-- Built with a11y in mind.
-- Modern design.
-- Multiple sections.
-- Sleek animations.
-- Fast loads.
-- SEO-optimized.
+- Python (using libraries such us Matplotlib, Pandas...)
+- Tableau
+- Power Bi
+- Excel
+- Canva
 
 <img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
-## Customizing the Template
+## Projects
 
 Please follow these three steps to make an awe-inspiring portfolio of your own.
 
-- [Cloning the repository](#cloning-the-repository)
-- [Editing the Template](#editing-the-template)
-- [Deploying the Site](#deploying-the-site)
+- [Handball Data Manipulation and Visualisation with Python](#cloning-the-repository)
+- [Handball Team Dashboard](#editing-the-template)
+- [Handball Match Statistics Report](#deploying-the-site)
 
-### Cloning the Repository.
+### My articles
 
 If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
 
@@ -45,7 +39,7 @@ git clone https://github.com/devsyedmohsin/portfolio-template
 
 Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it.
 
-### Editing the Template
+### Contact
 
 After you get the template please open it in the code editor of your choice.
 You will find a file named `index.html` Open it and follow the guidance inscribed within the comments to customize the template.
@@ -68,11 +62,3 @@ You will find a file named `index.html` Open it and follow the guidance inscribe
 ```
 
 **Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
-
-### Deploying the Site
-
-Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio template to the web.
-
-[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
-
-### Contributions are warmly welcomed ❤️.
