@@ -19,8 +19,6 @@ Give a star ⭐ if you like it. [Visit site &rarr;](https://gonzaloembil.github.
 - Excel
 - Canva
 
-<img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
-
 ## Projects
 
 Please follow these three steps to make an awe-inspiring portfolio of your own.
@@ -28,6 +26,7 @@ Please follow these three steps to make an awe-inspiring portfolio of your own.
 - [Handball Data Manipulation and Visualisation with Python](#cloning-the-repository)
 - [Handball Team Dashboard](#editing-the-template)
 - [Handball Match Statistics Report](#deploying-the-site)
+  <img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
 ## My articles
 
@@ -43,22 +42,3 @@ Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-t
 
 After you get the template please open it in the code editor of your choice.
 You will find a file named `index.html` Open it and follow the guidance inscribed within the comments to customize the template.
-
-**For example:**
-
-```html
-<!-- Update with your name -->
-<title>Syed Mohsin's Portfolio</title>
-```
-
-```html
-<div class="header-textbox">
-  <!-- Replace with your name & job title -->
-  <h1 class="h1">Hi, I'm Syed Mohsin Frontend Web Developer</h1>
-
-  <!-- Add a small introductory paragraph about yourself -->
-  <p class="header-text">A frontend software engineer and interface designer</p>
-</div>
-```
-
-**Note:** While editing the template, ensure you have updated all `href`, img `src`, and `alt` attributes of links and images.
