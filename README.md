@@ -2,7 +2,7 @@
 
 In this portfolio you can see the way I combine both of my passions: data analysis and handball. 🤾🏼‍♀️📈
 
-Give a star ⭐ if you like it. [Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
+[Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
 
 ## Table of Contents
 
