@@ -1,6 +1,6 @@
 # Gonzalo Martinez Embil Portfolio
 
-In this portfolio you can see the way I combine both of my passions: data analysis and handball. 🤾🏼‍♀️📈
+In this portfolio you can see
 
 [Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
 
