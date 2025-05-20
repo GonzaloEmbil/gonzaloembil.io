@@ -23,9 +23,8 @@ My Portfolio
 
 Please follow these three steps to make an awe-inspiring portfolio of your own.
 
-- [Handball Data Manipulation and Visualisation with Python](#cloning-the-repository)
-- [Handball Team Dashboard](#editing-the-template)
-- [Handball Match Statistics Report](#deploying-the-site)
+- [Analysis of Inequality Evolution in Handball](https://github.com/GonzaloEmbil/Handball_Inequality_Evolution)
+- [Analysis of the Spanish foreign sector]((https://github.com/GonzaloEmbil/Spanish_Foreign_Sector)
   <img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
 ## My articles
