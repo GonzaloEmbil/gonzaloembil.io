@@ -32,13 +32,6 @@ Please follow these three steps to make an awe-inspiring portfolio of your own.
 
 If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
 
-```bash
-git clone https://github.com/devsyedmohsin/portfolio-template
-```
-
-Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it.
-
 ## Contact
 
 After you get the template please open it in the code editor of your choice.
-You will find a file named `index.html` Open it and follow the guidance inscribed within the comments to customize the template.
