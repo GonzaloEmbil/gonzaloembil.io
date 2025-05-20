@@ -13,7 +13,7 @@ In this portfolio you can see whwrtht
 
 ## My Toolkit
 
-- Python (using libraries such us Matplotlib, Pandas...)
+- Python (using libraries such us Pandas, NumPy, Scikit-learn, Matplotlib...)
 - Tableau
 - Power BI
 - Excel
