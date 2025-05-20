@@ -37,4 +37,10 @@ If you have [Git](https://git-scm.com/) installed on your computer, you can clon
 
 ## Contact
 
-After you get the template please open it in the code editor of your choice.
+- [LinkedIn](https://github.com/GonzaloEmbil)
+
+- [GitHub](https://www.linkedin.com/in/gonzalo-martínez-embil)
+
+- [Twitter](https://x.com/GonzaloEmbil)
+
+- Email: gonzalomembil@gmail.com
