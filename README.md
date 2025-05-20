@@ -4,13 +4,6 @@ My Portfolio
 
 [Visit site &rarr;](https://gonzaloembil.github.io/gonzaloembil.io/)
 
-## Table of Contents
-
-1. [My Toolkit](#my-toolkit)
-1. [Projects](#projects)
-1. [My Articles](#my-articles)
-1. [Contact](#contact)
-
 ## My Toolkit
 
 - Python (using libraries such us Pandas, NumPy, Scikit-learn, Matplotlib...)
