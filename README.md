@@ -24,8 +24,11 @@ My Portfolio
 Please follow these three steps to make an awe-inspiring portfolio of your own.
 
 - [Analysis of Inequality Evolution in Handball](https://github.com/GonzaloEmbil/Handball_Inequality_Evolution)
+  
   <img src="assets/images/work/Goaldiffpergame_ByYear.gif" alt="Goaldiffpergame_ByYear">
+  
 - [Analysis of the Spanish foreign sector](https://github.com/GonzaloEmbil/Spanish_Foreign_Sector)
+  
   <img src="assets/images/work/Exports_Imports_GDP.png" alt="Exports_Imports_GDP">
 
 ## My articles
