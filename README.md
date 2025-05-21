@@ -26,7 +26,7 @@ Please follow these three steps to make an awe-inspiring portfolio of your own.
 
 ## My articles
 
-If you have [Git](https://git-scm.com/) installed on your computer, you can clone or download the portfolio template by running the following command in your terminal.
+Coming soon...
 
 ## Contact
 
